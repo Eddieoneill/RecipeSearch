@@ -14,6 +14,7 @@
 		6C9B4DC923A002C100E474E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C9B4DC823A002C100E474E8 /* Assets.xcassets */; };
 		6C9B4DCC23A002C100E474E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C9B4DCA23A002C100E474E8 /* LaunchScreen.storyboard */; };
 		6C9B4DD723A002C100E474E8 /* RecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9B4DD623A002C100E474E8 /* RecipeTests.swift */; };
+		6C9B4DE523A0071100E474E8 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9B4DE423A0071100E474E8 /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		6C9B4DD223A002C100E474E8 /* RecipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9B4DD623A002C100E474E8 /* RecipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTests.swift; sourceTree = "<group>"; };
 		6C9B4DD823A002C100E474E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C9B4DE423A0071100E474E8 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				6C9B4DC823A002C100E474E8 /* Assets.xcassets */,
 				6C9B4DCA23A002C100E474E8 /* LaunchScreen.storyboard */,
 				6C9B4DCD23A002C100E474E8 /* Info.plist */,
+				6C9B4DE323A006F000E474E8 /* Secrets */,
 			);
 			path = Recipe;
 			sourceTree = "<group>";
@@ -97,6 +100,14 @@
 				6C9B4DD823A002C100E474E8 /* Info.plist */,
 			);
 			path = RecipeTests;
+			sourceTree = "<group>";
+		};
+		6C9B4DE323A006F000E474E8 /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				6C9B4DE423A0071100E474E8 /* Secrets.swift */,
+			);
+			path = Secrets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C9B4DC423A002BF00E474E8 /* ViewController.swift in Sources */,
+				6C9B4DE523A0071100E474E8 /* Secrets.swift in Sources */,
 				6C9B4DC023A002BF00E474E8 /* AppDelegate.swift in Sources */,
 				6C9B4DC223A002BF00E474E8 /* SceneDelegate.swift in Sources */,
 			);
